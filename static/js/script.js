@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			demo1.innerHTML = `${
 				(image_width * image_height) / 10000
 			} m², ${image_width} x ${image_height} cm, ${Math.round(
-				image_width / 50 - 1
+				image_width / 50 - 0.5
 			)} lines`;
 		},
 	});
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						demo1.innerHTML = `${
 							(image_width * image_height) / 10000
 						} m², ${image_width} x ${image_height} cm, ${Math.round(
-							image_width / 50 - 1
+							image_width / 50 - 0.5
 						)} lines`;
 					},
 				});
