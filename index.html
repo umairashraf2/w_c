@@ -1,0 +1,3405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="https://www.profitapeten.de/media/unknown/0c/da/d1/ProfitapetenFavicon_16x16.ico"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css"
+		/>
+		<link rel="stylesheet" href="./static/css/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+
+		<link rel="stylesheet" href="./static/css/main.css" />
+
+		<title>Profitapeten.de</title>
+	</head>
+	<body>
+		<header class="header-main">
+			<div class="container header--navigation">
+				<div class="logo-main block-group" role="banner">
+					<div class="logo--shop block">
+						<a
+							class="logo--link"
+							href1="https://www.profitapeten.de/"
+							title="Profitapeten.de - zur Startseite wechseln"
+						>
+							<picture>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/31/3d/47/Profitapeten_Logo_Neu.webp
+									"
+									type="image/webp"
+									media="(min-width: 78.75em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/7a/f0/c1/Profitapeten_Logo_Neu.png
+									"
+									media="(min-width: 78.75em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/31/3d/47/Profitapeten_Logo_Neu.webp
+									"
+									type="image/webp"
+									media="(min-width: 64em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/7a/f0/c1/Profitapeten_Logo_Neu.png
+									"
+									media="(min-width: 64em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/31/3d/47/Profitapeten_Logo_Neu.webp
+									"
+									type="image/webp"
+									media="(min-width: 48em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/7a/f0/c1/Profitapeten_Logo_Neu.png
+									"
+									media="(min-width: 48em)"
+								/>
+								<source
+									srcset="
+										https://www.profitapeten.de/media/image/31/3d/47/Profitapeten_Logo_Neu.webp
+									"
+									type="image/webp"
+								/>
+								<img
+									loading="lazy"
+									srcset="
+										https://www.profitapeten.de/media/image/7a/f0/c1/Profitapeten_Logo_Neu.png
+									"
+									alt="Profitapeten.de - zur Startseite wechseln"
+								/>
+							</picture>
+						</a>
+					</div>
+				</div>
+				<nav class="shop--navigation block-group">
+					<ul class="navigation--list block-group" role="menubar">
+						<li
+							class="navigation--entry entry--menu-left"
+							role="menuitem"
+						>
+							<a
+								class="entry--link entry--trigger btn"
+								href1="https://www.profitapeten.de/farbe/#offcanvas--left"
+								data-offcanvas="true"
+								data-offcanvasselector=".sidebar-main"
+								aria-label="Menü"
+							>
+								<picture class="fal fa-bars">
+									<svg
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="bars"
+										class="svg-inline--fa fa-bars fa-w-14"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 448 512"
+									>
+										<path
+											fill="currentColor"
+											d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z"
+										></path>
+									</svg>
+								</picture>
+								Menü
+							</a>
+						</li>
+						<li
+							class="navigation--entry entry--search"
+							role="menuitem"
+							data-search="true"
+							aria-haspopup="true"
+						>
+							<a
+								class="entry--link entry--trigger btn"
+								href1="https://www.profitapeten.de/farbe/#show-hide--search"
+								title="Suche anzeigen / schließen"
+							>
+								<picture class="fal fa-search">
+									<svg
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="search"
+										class="svg-inline--fa fa-search fa-w-16"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 512 512"
+									>
+										<path
+											fill="currentColor"
+											d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"
+										></path>
+									</svg>
+								</picture>
+								<span class="search--display">Suchen</span>
+							</a>
+							<form
+								method="get"
+								class="main-search--form"
+								style="z-index: 0"
+							>
+								<input
+									type="search"
+									name="sSearch"
+									aria-label="Suchbegriff..."
+									class="main-search--field"
+									autocomplete="off"
+									autocapitalize="off"
+									placeholder="Suchbegriff..."
+									maxlength="30"
+								/>
+								<button
+									class="main-search--button"
+									aria-label="Suchen"
+								>
+									<picture class="fal fa-search">
+										<svg
+											aria-hidden="true"
+											focusable="false"
+											data-prefix="fal"
+											data-icon="search"
+											class="svg-inline--fa fa-search fa-w-16"
+											role="img"
+											xmlns="http://www.w3.org/2000/svg"
+											viewBox="0 0 512 512"
+										>
+											<path
+												fill="currentColor"
+												d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"
+											></path>
+										</svg>
+									</picture>
+									<span class="main-search--text"
+										>Suchen</span
+									>
+								</button>
+								<div class="form--ajax-loader">&nbsp;</div>
+							</form>
+							<div class="main-search--results"></div>
+						</li>
+
+						<li
+							class="navigation--entry entry--compare is--hidden"
+							role="menuitem"
+							aria-haspopup="true"
+							data-drop-down-menu="true"
+						></li>
+
+						<li
+							class="navigation--entry entry--notepad"
+							role="menuitem"
+						>
+							<a
+								href1="https://www.profitapeten.de/note"
+								title="Merkzettel"
+								aria-label="Merkzettel"
+								class="btn"
+							>
+								<picture class="fal fa-heart">
+									<svg
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="heart"
+										class="svg-inline--fa fa-heart fa-w-16"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 512 512"
+									>
+										<path
+											fill="currentColor"
+											d="M462.3 62.7c-54.5-46.4-136-38.7-186.6 13.5L256 96.6l-19.7-20.3C195.5 34.1 113.2 8.7 49.7 62.7c-62.8 53.6-66.1 149.8-9.9 207.8l193.5 199.8c6.2 6.4 14.4 9.7 22.6 9.7 8.2 0 16.4-3.2 22.6-9.7L472 270.5c56.4-58 53.1-154.2-9.7-207.8zm-13.1 185.6L256.4 448.1 62.8 248.3c-38.4-39.6-46.4-115.1 7.7-161.2 54.8-46.8 119.2-12.9 142.8 11.5l42.7 44.1 42.7-44.1c23.2-24 88.2-58 142.8-11.5 54 46 46.1 121.5 7.7 161.2z"
+										></path>
+									</svg>
+								</picture>
+							</a>
+						</li>
+
+						<li
+							class="navigation--entry entry--account with-slt"
+							role="menuitem"
+							data-offcanvas="true"
+							data-offcanvasselector=".account--dropdown-navigation"
+						>
+							<a
+								href1="https://www.profitapeten.de/account"
+								title="Mein Konto"
+								aria-label="Mein Konto"
+								class="btn is--icon-left entry--link account--link"
+							>
+								<picture class="fal fa-user">
+									<svg
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="user"
+										class="svg-inline--fa fa-user fa-w-14"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 448 512"
+									>
+										<path
+											fill="currentColor"
+											d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
+										></path>
+									</svg>
+								</picture>
+								<span class="account--display">
+									Mein Konto
+								</span>
+							</a>
+
+							<div class="account--dropdown-navigation">
+								<div class="navigation--smartphone">
+									<div class="entry--close-off-canvas">
+										<a
+											href1="https://www.profitapeten.de/farbe/#close-account-menu"
+											class="account--close-off-canvas"
+											title="Menü schließen"
+											aria-label="Menü schließen"
+										>
+											Menü schließen
+											<i class="icon--arrow-right"></i>
+										</a>
+									</div>
+								</div>
+
+								<div
+									class="account--menu is--rounded is--personalized"
+								>
+									<span class="navigation--headline">
+										Mein Konto
+									</span>
+
+									<div class="account--menu-container">
+										<ul
+											class="sidebar--navigation navigation--list is--level0 show--active-items"
+										>
+											<li class="navigation--entry">
+												<span
+													class="navigation--signin"
+												>
+													<a
+														href1="https://www.profitapeten.de/account#hide-registration"
+														class="blocked--link btn is--primary navigation--signin-btn"
+														data-collapsetarget="#registration"
+														data-action="close"
+													>
+														Anmelden
+													</a>
+													<span
+														class="navigation--register"
+													>
+														oder
+														<a
+															href1="https://www.profitapeten.de/account#show-registration"
+															class="blocked--link"
+															data-collapsetarget="#registration"
+															data-action="open"
+														>
+															registrieren
+														</a>
+													</span>
+												</span>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/account"
+													title="Übersicht"
+													class="navigation--link"
+												>
+													Übersicht
+												</a>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/account/profile"
+													title="Persönliche Daten"
+													class="navigation--link"
+													rel="nofollow"
+												>
+													Persönliche Daten
+												</a>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/address/index/sidebar/"
+													title="Adressen"
+													class="navigation--link"
+													rel="nofollow"
+												>
+													Adressen
+												</a>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/account/payment"
+													title="Zahlungsarten"
+													class="navigation--link"
+													rel="nofollow"
+												>
+													Zahlungsarten
+												</a>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/account/orders"
+													title="Bestellungen"
+													class="navigation--link"
+													rel="nofollow"
+												>
+													Bestellungen
+												</a>
+											</li>
+
+											<li class="navigation--entry">
+												<a
+													href1="https://www.profitapeten.de/note"
+													title="Merkzettel"
+													class="navigation--link"
+													rel="nofollow"
+												>
+													Merkzettel
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li
+							class="navigation--entry entry--cart"
+							role="menuitem"
+						>
+							<a
+								class="btn is--icon-left cart--link"
+								href1="https://www.profitapeten.de/checkout/cart"
+								title="Warenkorb"
+								aria-label="Warenkorb"
+							>
+								<span class="cart--display"> Warenkorb </span>
+
+								<span
+									class="badge is--primary is--minimal cart--quantity is--hidden"
+									>0</span
+								>
+
+								<picture class="fal fa-shopping-cart">
+									<svg
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="shopping-cart"
+										class="svg-inline--fa fa-shopping-cart fa-w-18"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 576 512"
+									>
+										<path
+											fill="currentColor"
+											d="M551.991 64H129.28l-8.329-44.423C118.822 8.226 108.911 0 97.362 0H12C5.373 0 0 5.373 0 12v8c0 6.627 5.373 12 12 12h78.72l69.927 372.946C150.305 416.314 144 431.42 144 448c0 35.346 28.654 64 64 64s64-28.654 64-64a63.681 63.681 0 0 0-8.583-32h145.167a63.681 63.681 0 0 0-8.583 32c0 35.346 28.654 64 64 64 35.346 0 64-28.654 64-64 0-17.993-7.435-34.24-19.388-45.868C506.022 391.891 496.76 384 485.328 384H189.28l-12-64h331.381c11.368 0 21.177-7.976 23.496-19.105l43.331-208C578.592 77.991 567.215 64 551.991 64zM240 448c0 17.645-14.355 32-32 32s-32-14.355-32-32 14.355-32 32-32 32 14.355 32 32zm224 32c-17.645 0-32-14.355-32-32s14.355-32 32-32 32 14.355 32 32-14.355 32-32 32zm38.156-192H171.28l-36-192h406.876l-40 192z"
+										></path>
+									</svg>
+								</picture>
+
+								<span class="cart--amount">
+									0,00&nbsp;€ *
+								</span>
+							</a>
+							<div class="ajax-loader"></div>
+						</li>
+					</ul>
+				</nav>
+				<div
+					class="container--ajax-cart off-canvas is--right is--active"
+					data-collapse-cart="true"
+					data-displaymode="offcanvas"
+				></div>
+			</div>
+		</header>
+		<nav class="navigation-main">
+			<div
+				class="container js--menu-scroller"
+				data-menu-scroller="true"
+				data-listselector=".navigation--list.container"
+				data-viewportselector=".navigation--list-wrapper"
+			>
+				<div class="navigation--list-wrapper">
+					<ul
+						class="navigation--list container js--menu-scroller--list"
+						role="menubar"
+						itemscope="itemscope"
+						style="bottom: 0px; margin-top: 0px"
+					>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/tapetenart/"
+								title="wallpaper type"
+								aria-label="wallpaper type"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>wallpaper type</font
+										></font
+									></span
+								></a
+							>
+						</li>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/toptrends/"
+								title="Top/Trending"
+								aria-label="Top/Trending"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>Top/Trending</font
+										></font
+									></span
+								></a
+							>
+						</li>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/gemusterte-tapete/"
+								title="Patterned wallpaper"
+								aria-label="Patterned wallpaper"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>Patterned wallpaper</font
+										></font
+									></span
+								></a
+							>
+						</li>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/einfarbige-tapete/"
+								title="Monochrome wallpaper"
+								aria-label="Monochrome wallpaper"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>Monochrome wallpaper</font
+										></font
+									></span
+								></a
+							>
+						</li>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/fototapete/"
+								title="Photo wallpaper"
+								aria-label="Photo wallpaper"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>Photo wallpaper</font
+										></font
+									></span
+								></a
+							>
+						</li>
+						<li
+							class="navigation--entry js--menu-scroller--item"
+							role="menuitem"
+						>
+							<a
+								class="navigation--link"
+								href1="https://www.profitapeten.de/ueberstreichbar/"
+								title="paintable"
+								aria-label="paintable"
+								itemprop="url"
+								><span itemprop="name"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>paintable</font
+										></font
+									></span
+								></a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="modal" tabindex="-1" role="dialog" id="cropper-modal">
+			<div class="modal-dialog modal-fullscreen" role="document">
+				<div class="container modal-content p-0">
+					<div class="modal-body p-0">
+						<div
+							class="position-absolute top-0 end-0 z-5"
+							style="z-index: 5"
+						>
+							<span
+								id="close-modal"
+								class="material-symbols-outlined"
+								style="font-size: 30px; cursor: pointer"
+							>
+								close
+							</span>
+						</div>
+						<div id="main_container" class="container mb-3">
+							<div class="row">
+								<div class="col-md-2 mb-3">
+									<div>
+										<div class="mb-3">
+											<img
+												src="./static/images/logo.webp"
+												id="mian-logo-css"
+												class="img-fluid"
+												alt="logo"
+											/>
+											<small
+												>Adjust to desired size</small
+											>
+											<label
+												for="exampleFormControlInput1"
+												class="form-label d-flex align-items-center"
+											>
+												<span
+													class="material-symbols-outlined"
+													>width</span
+												>
+												<span class="ms-2"
+													>Width in cm</span
+												>
+											</label>
+											<input
+												type="number"
+												class="form-control"
+												id="width-input"
+												placeholder="Enter width in cm"
+												min="0"
+												step="1"
+												pattern="[0-9]"
+											/>
+										</div>
+										<div class="mb-3">
+											<label
+												for="exampleFormControlInput1"
+												class="form-label d-flex align-items-center"
+											>
+												<span
+													class="material-symbols-outlined"
+													>height</span
+												>
+												<span class="ms-2"
+													>Height in cm</span
+												>
+											</label>
+											<input
+												type="number"
+												class="form-control"
+												id="height-input"
+												placeholder="Enter height in cm"
+												min="0"
+												max="500"
+												step="1"
+												pattern="[0-9]"
+											/>
+											<small>(up to 500cm)</small>
+										</div>
+
+										<button
+											class="btn btn-secondary d-flex align-items-center"
+											id="fit-button"
+										>
+											<span
+												class="material-symbols-outlined"
+												>fit_screen</span
+											>
+											<span class="ms-2">Fit</span>
+										</button>
+
+										<hr />
+										<div>
+											<h4 class="my-2">Zoom</h4>
+											<span
+												class="material-symbols-outlined"
+											>
+												zoom_in
+											</span>
+											<input
+												type="range"
+												class="form-range"
+												id="customRange1"
+												step="0.1"
+												min="0"
+												max="5"
+												value="0"
+											/>
+										</div>
+										<div>
+											<h4 class="my-2">Rotate</h4>
+											<div
+												class="d-flex justify-content-start align-items-center"
+											>
+												<button
+													class="btn btn-secondary d-flex align-items-center"
+													id="horizontalRotate"
+												>
+													<span
+														class="material-symbols-outlined"
+														>rotate_right</span
+													>
+												</button>
+												<button
+													class="btn btn-secondary d-flex align-items-center ms-3"
+													id="verticalRotate"
+												>
+													<span
+														class="material-symbols-outlined"
+														>rotate_left</span
+													>
+												</button>
+											</div>
+										</div>
+
+										<div>
+											<h4 class="my-2">Reflect</h4>
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="checkbox"
+													value=""
+													id="verticalCheckbox"
+												/>
+												<label
+													class="form-check-label d-flex align-items-center"
+													for="vericalCheckbox"
+												>
+													<span
+														class="material-symbols-outlined"
+														>swap_vert</span
+													>
+													<span class="ms-2"
+														>Vertical</span
+													>
+												</label>
+											</div>
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="checkbox"
+													value=""
+													id="horizontalCheckbox"
+												/>
+												<label
+													class="form-check-label d-flex align-items-center"
+													for="horizontalCheckbox"
+												>
+													<span
+														class="material-symbols-outlined"
+														>swap_horiz</span
+													>
+													<span class="ms-2"
+														>Horizontal</span
+													>
+												</label>
+											</div>
+										</div>
+										<div>
+											<h4 class="my-2">Filter</h4>
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="checkbox"
+													value=""
+													id="grayscale-toggle"
+												/>
+												<label
+													class="form-check-label d-flex align-items-center"
+													for="horizontalCheckbox"
+												>
+													<span
+														class="material-symbols-outlined"
+														>contrast</span
+													>
+													<span class="ms-2"
+														>Grayscale</span
+													>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 p-0">
+									<div
+										style="border: 5px solid"
+										class="border-secondary d-flex justify-content-center align-items-center rounded"
+									>
+										<img
+											style="border: 3px solid red"
+											src=""
+											alt="Cropped Image"
+											id="image"
+											height="450px"
+											width="auto"
+										/>
+									</div>
+									<p class="my-2" id="demo1"></p>
+									<div
+										class="row d-flex justify-content-between"
+									>
+										<div class="col-md-6">
+											<p>
+												The delivery time for
+												custom-made fleece products is 1
+												- 2 weeks. Please note that
+												these non-woven wallpapers are
+												produced individually for you
+												and are therefore excluded from
+												the right of withdrawal.
+												Non-woven wallpapers made to
+												measure are delivered without
+												paste. You can add the right
+												amount of paste in the shopping
+												cart optionally.
+											</p>
+										</div>
+										<div
+											class="col-md-6 d-flex justify-content-end"
+										>
+											<div>
+												<h5
+													class="mx-2 d-flex flex-column m-0"
+												>
+													<span>€250.70*</span
+													><small
+														>€25.80*/m<sup
+															>2</sup
+														></small
+													>
+												</h5>
+											</div>
+											<div>
+												<button
+													class="btn btn-outline-secondary"
+												>
+													Show in Visualizer
+												</button>
+												<button
+													class="btn btn-secondary"
+												>
+													Add to Cart
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div>
+										<h4>Upload Image</h4>
+										<div class="mb-2">
+											<input
+												class="form-control"
+												type="file"
+												id="inputImage"
+												accept="image/*"
+											/>
+										</div>
+									</div>
+									<div>
+										<h4 class="mb-2">Preview</h4>
+										<div class="form-check">
+											<input
+												class="form-check-input"
+												type="checkbox"
+												value=""
+												id="showPreview"
+											/>
+											<label
+												class="form-check-label d-flex align-items-center"
+												for="showPreview"
+											>
+												<span
+													class="material-symbols-outlined"
+												>
+													visibility
+												</span>
+												<span class="ms-2"
+													>Live Preview</span
+												>
+											</label>
+										</div>
+										<div
+											class="my-3"
+											id="showContainer"
+											style="display: none"
+										>
+											<img
+												id="preview-img"
+												src=""
+												alt="Cropped Image Preview"
+												class="img-fluid rounded mx-auto d-block"
+												style="max-height: 200px"
+											/>
+											<div
+												class="d-flex justify-content-center mt-3"
+											>
+												<a
+													id="dwn2"
+													class="btn btn-secondary"
+													download="cropped-image.png"
+													>Download</a
+												>
+											</div>
+										</div>
+										<div class="form-check">
+											<input
+												class="form-check-input"
+												type="checkbox"
+												value=""
+												id="crop"
+											/>
+											<label
+												class="form-check-label d-flex align-items-center"
+												for="crop"
+											>
+												<span
+													class="material-symbols-outlined"
+												>
+													crop
+												</span>
+												<span class="ms-2">Crop</span>
+											</label>
+										</div>
+										<div
+											class="my-3"
+											id="preview"
+											style="display: none"
+										>
+											<img
+												id="croppedImage"
+												src=""
+												alt="Cropped Image"
+												class="img-fluid rounded mx-auto d-block"
+												style="max-height: 200px"
+											/>
+											<!-- download button -->
+											<div
+												class="d-flex justify-content-center mt-3"
+											>
+												<a
+													id="dwn"
+													class="btn btn-secondary"
+													download="cropped-image.png"
+													>Download</a
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="content-main container block-group px-2">
+			<div
+				class="listing my-3"
+				data-ajax-wishlist="true"
+				data-compare-ajax="true"
+				data-infinite-scrolling="true"
+				data-loadprevioussnippet="Vorherige Artikel laden"
+				data-loadmoresnippet="Weitere Artikel laden"
+				data-categoryid="1474"
+				data-pages="749"
+				data-threshold="10"
+				data-pageshortparameter="p"
+			>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53117"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36324/a.s.-creation-designwalls-2.0-dd118870-fototapete-vlies-366-x-254-cm-kinderzimmer-bunt"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118870 |  Photo Wallpaper |  fleece |  366 x 254 cm |  Nursery |  Colorful"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/c2/84/64/DD118870_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/83/7f/4b/DD118870_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118870 | Fototapete | Vlies | 366 x 254 cm | Kinderzimmer | Bunt"
+														title="A.S. Creation | Designwalls 2.0 | DD118870 | Fototapete | Vlies | 366 x 254 cm | Kinderzimmer | Bunt"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/c2/84/64/DD118870_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/c2/84/64/DD118870_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118870 |  Photo Wallpaper |  fleece |  366 x 254 cm |  Nursery |  Colorful"
+													title="AS Creation |  Design Walls 2.0 |  DD118870 |  Photo Wallpaper |  fleece |  366 x 254 cm |  Nursery |  Colorful"
+													data-srcset="https://www.profitapeten.de/media/image/83/7f/4b/DD118870_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img7.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/52/21/cf/DD118870_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118870 |  Photo Wallpaper |  fleece |  366 x 254 cm |  Nursery |  Colorful"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36324/a.s.-creation-designwalls-2.0-dd118870-fototapete-vlies-366-x-254-cm-kinderzimmer-bunt"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118870 |  Photo Wallpaper |  fleece |  366 x 254 cm |  Nursery |  Colorful"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118870 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>366 x 254 cm | </font
+									><font style="vertical-align: inherit"
+										>Nursery | </font
+									><font style="vertical-align: inherit"
+										>Colorful
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€61.30 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.30 m² (€6.59 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.30 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€6.59 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36324"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53117"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53117"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53158"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36365/a.s.-creation-designwalls-2.0-dd118913-fototapete-vlies-384-x-260-cm-kinderzimmer-bunt"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118913 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/50/0f/7f/DD118913_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/37/fa/01/DD118913_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118913 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer | Bunt"
+														title="A.S. Creation | Designwalls 2.0 | DD118913 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer | Bunt"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/50/0f/7f/DD118913_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/50/0f/7f/DD118913_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118913 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+													title="AS Creation |  Design Walls 2.0 |  DD118913 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+													data-srcset="https://www.profitapeten.de/media/image/37/fa/01/DD118913_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes ls-is-cached js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img8.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/c1/26/46/DD118913_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118913 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36365/a.s.-creation-designwalls-2.0-dd118913-fototapete-vlies-384-x-260-cm-kinderzimmer-bunt"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118913 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118913 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>384x260cm | </font
+									><font style="vertical-align: inherit"
+										>Nursery | </font
+									><font style="vertical-align: inherit"
+										>Colorful
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€122.60 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.98 m² (€12.28 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.98 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€12.28 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36365"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53158"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53158"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53168"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36375/a.s.-creation-designwalls-2.0-dd118923-fototapete-vlies-384-x-260-cm-kinderzimmer"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118923 |  Photo Wallpaper |  fleece |  384x260cm |  nursery"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/ae/7e/6a/DD118923_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/15/3d/21/DD118923_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118923 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer "
+														title="A.S. Creation | Designwalls 2.0 | DD118923 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer "
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/ae/7e/6a/DD118923_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/ae/7e/6a/DD118923_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118923 |  Photo Wallpaper |  fleece |  384x260cm |  nursery"
+													title="AS Creation |  Design Walls 2.0 |  DD118923 |  Photo Wallpaper |  fleece |  384x260cm |  nursery"
+													data-srcset="https://www.profitapeten.de/media/image/15/3d/21/DD118923_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img9.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/5d/b5/a1/DD118923_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118923 |  Photo Wallpaper |  fleece |  384x260cm |  nursery"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36375/a.s.-creation-designwalls-2.0-dd118923-fototapete-vlies-384-x-260-cm-kinderzimmer"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118923 |  Photo Wallpaper |  fleece |  384x260cm |  nursery"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118923 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>384x260cm | </font
+									><font style="vertical-align: inherit"
+										>nursery
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€122.60 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.98 m² (€12.28 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.98 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€12.28 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36375"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53168"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53168"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53169"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36376/a.s.-creation-designwalls-2.0-dd118924-fototapete-vlies-384-x-260-cm-kinderzimmer-bunt"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118924 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/71/e4/90/DD118924_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/g0/5d/89/DD118924_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118924 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer | Bunt"
+														title="A.S. Creation | Designwalls 2.0 | DD118924 | Fototapete | Vlies | 384 x 260 cm | Kinderzimmer | Bunt"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/71/e4/90/DD118924_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/71/e4/90/DD118924_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118924 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+													title="AS Creation |  Design Walls 2.0 |  DD118924 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+													data-srcset="https://www.profitapeten.de/media/image/g0/5d/89/DD118924_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img10.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/12/94/48/DD118924_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118924 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36376/a.s.-creation-designwalls-2.0-dd118924-fototapete-vlies-384-x-260-cm-kinderzimmer-bunt"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118924 |  Photo Wallpaper |  fleece |  384x260cm |  Nursery |  Colorful"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118924 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>384x260cm | </font
+									><font style="vertical-align: inherit"
+										>Nursery | </font
+									><font style="vertical-align: inherit"
+										>Colorful
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€122.60 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.98 m² (€12.28 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.98 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€12.28 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36376"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53169"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53169"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53175"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36382/a.s.-creation-designwalls-2.0-dd118930-fototapete-vlies-384-x-260-cm-landschaft"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118930 |  Photo Wallpaper |  fleece |  384x260cm |  Landscape"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/97/44/bb/DD118930_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/21/eb/b9/DD118930_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118930 | Fototapete | Vlies | 384 x 260 cm | Landschaft"
+														title="A.S. Creation | Designwalls 2.0 | DD118930 | Fototapete | Vlies | 384 x 260 cm | Landschaft"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/97/44/bb/DD118930_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/97/44/bb/DD118930_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118930 |  Photo Wallpaper |  fleece |  384x260cm |  Landscape"
+													title="AS Creation |  Design Walls 2.0 |  DD118930 |  Photo Wallpaper |  fleece |  384x260cm |  Landscape"
+													data-srcset="https://www.profitapeten.de/media/image/21/eb/b9/DD118930_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes ls-is-cached js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img11.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/94/b7/52/DD118930_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118930 |  Photo Wallpaper |  fleece |  384x260cm |  Landscape"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36382/a.s.-creation-designwalls-2.0-dd118930-fototapete-vlies-384-x-260-cm-landschaft"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118930 |  Photo Wallpaper |  fleece |  384x260cm |  Landscape"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118930 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>384x260cm | </font
+									><font style="vertical-align: inherit"
+										>Landscape
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€122.60 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.98 m² (€12.28 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.98 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€12.28 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36382"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53175"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53175"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP53185"
+				>
+					<div class="box--content">
+						<div class="product--badges"></div>
+						<div class="product--info">
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36392/a.s.-creation-designwalls-2.0-dd118940-fototapete-vlies-384-x-260-cm-strand-meer"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Design Walls 2.0 |  DD118940 |  Photo Wallpaper |  fleece |  384x260cm |  Beach Sea"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/53/72/a3/DD118940_Haupt_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/1c/8c/5e/DD118940_Haupt_600x600.jpg
+														"
+														alt="A.S. Creation | Designwalls 2.0 | DD118940 | Fototapete | Vlies | 384 x 260 cm | Strand &amp; Meer "
+														title="A.S. Creation | Designwalls 2.0 | DD118940 | Fototapete | Vlies | 384 x 260 cm | Strand &amp; Meer "
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/53/72/a3/DD118940_Haupt_600x600.webp"
+													data-sizes="auto"
+													sizes="299px"
+													srcset="
+														https://www.profitapeten.de/media/image/53/72/a3/DD118940_Haupt_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Design Walls 2.0 |  DD118940 |  Photo Wallpaper |  fleece |  384x260cm |  Beach Sea"
+													title="AS Creation |  Design Walls 2.0 |  DD118940 |  Photo Wallpaper |  fleece |  384x260cm |  Beach Sea"
+													data-srcset="https://www.profitapeten.de/media/image/1c/8c/5e/DD118940_Haupt_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes ls-is-cached js--loaded"
+													sizes="299px"
+													srcset="
+														./static/images/img12.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/27/f1/e0/DD118940_Raum1_400x400.jpg
+										"
+										alt="AS Creation |  Design Walls 2.0 |  DD118940 |  Photo Wallpaper |  fleece |  384x260cm |  Beach Sea"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/fototapete/natur-landschaft/36392/a.s.-creation-designwalls-2.0-dd118940-fototapete-vlies-384-x-260-cm-strand-meer"
+								class="product--title"
+								title="AS Creation |  Design Walls 2.0 |  DD118940 |  Photo Wallpaper |  fleece |  384x260cm |  Beach Sea"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Design Walls 2.0 | </font
+									><font style="vertical-align: inherit"
+										>DD118940 | </font
+									><font style="vertical-align: inherit"
+										>Photo Wallpaper | </font
+									><font style="vertical-align: inherit"
+										>fleece | </font
+									><font style="vertical-align: inherit"
+										>384x260cm | </font
+									><font style="vertical-align: inherit"
+										>Beach Sea
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€122.60 * / piece
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 9.98 m² (€12.28 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												9.98 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€12.28 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/36392"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP53185"
+									method="post"
+								>
+									<button
+										type="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP53185"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="qzXE78AWSb6AhH1AeldFhCBQ2AkDhH"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP36538"
+				>
+					<div class="box--content">
+						<div class="product--badges">
+							<div class="product--badge badge--sample-order">
+								Muster möglich
+							</div>
+						</div>
+						<div class="product--info">
+							<a
+								href1="index.html?img=img3.jpg"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Boys &amp; Girls 6 |  369343 |  non-woven wallpaper |  Nursery |  0.53 x 10.05m |  Pink"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/6d/bc/df/369343_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/ef/0f/2e/369343_600x600.jpg
+														"
+														alt="A.S. Creation | Boys &amp; Girls 6 | 369343 | Vliestapete | Kinderzimmer | 0.53 x 10.05 m | Rosa"
+														title="A.S. Creation | Boys &amp; Girls 6 | 369343 | Vliestapete | Kinderzimmer | 0.53 x 10.05 m | Rosa"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/6d/bc/df/369343_600x600.webp"
+													data-sizes="auto"
+													sizes="258px"
+													srcset="
+														https://www.profitapeten.de/media/image/6d/bc/df/369343_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Boys &amp; Girls 6 |  369343 |  non-woven wallpaper |  Nursery |  0.53 x 10.05m |  Pink"
+													title="AS Creation |  Boys &amp; Girls 6 |  369343 |  non-woven wallpaper |  Nursery |  0.53 x 10.05m |  Pink"
+													data-srcset="https://www.profitapeten.de/media/image/ef/0f/2e/369343_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded gallery-image"
+													sizes="258px"
+													srcset="
+														./static/images/img3.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/01/3d/c1/369343_1_400x400.jpg
+										"
+										alt="AS Creation |  Boys &amp; Girls 6 |  369343 |  non-woven wallpaper |  Nursery |  0.53 x 10.05m |  Pink"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/tapetenart/tapeten-schlafzimmer/8846/a.s.-creation-boys-girls-6-369343-vliestapete-kinderzimmer-0.53-x-10.05-m-rosa"
+								class="product--title"
+								title="AS Creation |  Boys &amp; Girls 6 |  369343 |  non-woven wallpaper |  Nursery |  0.53 x 10.05m |  Pink"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Boys &amp; Girls 6 | </font
+									><font style="vertical-align: inherit"
+										>369343 | </font
+									><font style="vertical-align: inherit"
+										>non-woven wallpaper | </font
+									><font style="vertical-align: inherit"
+										>Nursery | </font
+									><font style="vertical-align: inherit"
+										>0.53 x 10.05m | </font
+									><font style="vertical-align: inherit"
+										>Pink
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€19.05 * / roll
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 5.33 m² (€3.57 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												5.33 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€3.57 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/8846"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP36538"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP36538"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP54190"
+				>
+					<div class="box--content">
+						<div class="product--badges">
+							<div class="product--badge badge--sample-order">
+								Muster möglich
+							</div>
+						</div>
+						<div class="product--info">
+							<a
+								href1="index.html?img=img4.jpg"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation Titanium 3 |  382041 |  Non-woven wallpaper 3D optics |  0.53m x 10.05m |  Green"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/8e/fc/e4/382041_1_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/37/ea/49/382041_1_600x600.jpg
+														"
+														alt="A.S. Creation | Titanium 3     | Gruen | 382041"
+														title="A.S. Creation | Titanium 3     | Gruen | 382041"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/8e/fc/e4/382041_1_600x600.webp"
+													data-sizes="auto"
+													sizes="258px"
+													srcset="
+														https://www.profitapeten.de/media/image/8e/fc/e4/382041_1_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Titanium 3 |  Green |  382041"
+													title="AS Creation |  Titanium 3 |  Green |  382041"
+													data-srcset="https://www.profitapeten.de/media/image/37/ea/49/382041_1_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded gallery-image"
+													sizes="258px"
+													srcset="
+														./static/images/img4.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/fa/5d/55/382041_3_400x400.jpg
+										"
+										alt="AS Creation |  Titanium 3 |  Green |  382041"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/gemusterte-tapete/3d-tapete/37251/a.s.-creation-titanium-3-382041-vliestapete-3d-optik-0.53-m-x-10.05-m-gruen"
+								class="product--title"
+								title="AS Creation Titanium 3 |  382041 |  Non-woven wallpaper 3D optics |  0.53m x 10.05m |  Green"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation Titanium 3 | </font
+									><font style="vertical-align: inherit"
+										>382041 | </font
+									><font style="vertical-align: inherit"
+										>Non-woven wallpaper 3D optics | </font
+									><font style="vertical-align: inherit"
+										>0.53m x 10.05m | </font
+									><font style="vertical-align: inherit"
+										>Green
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€24.15 * / roll
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 5.33 m² (€4.53 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												5.33 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€4.53 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/37251"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP54190"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP54190"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="product--box box--image"
+					data-page-index="1"
+					data-ordernumber="TAP15940"
+				>
+					<div class="box--content">
+						<div class="product--badges">
+							<div class="product--badge badge--sample-order">
+								Muster möglich
+							</div>
+						</div>
+						<div class="product--info">
+							<a
+								href1="index.html?img=img6.jpg"
+								data-animation-speed="fast"
+								class="product--image kb--product-image kb--animation-variation-0"
+								title="AS Creation |  Secret Garden |  336042 |  non-woven wallpaper |  floral look |  0.53 x 10.05m |  Brown"
+							>
+								<span class="image--element kb--image-element">
+									<span class="image--media">
+										<div
+											class="maxia-lazy-loader js--loaded"
+										>
+											<noscript
+												><picture>
+													<source
+														srcset="
+															https://www.profitapeten.de/media/image/49/69/28/336042_600x600.webp
+														"
+														type="image/webp"
+													/>
+													<img
+														loading="lazy"
+														srcset="
+															https://www.profitapeten.de/media/image/c3/8a/ea/336042_600x600.jpg
+														"
+														alt="A.S. Creation | Secret Garden | 336042 | Vliestapete | Blumenoptik | 0.53 x 10.05 m | Braun"
+														title="A.S. Creation | Secret Garden | 336042 | Vliestapete | Blumenoptik | 0.53 x 10.05 m | Braun"
+													/> </picture></noscript
+											><picture>
+												<source
+													type="image/webp"
+													data-srcset="https://www.profitapeten.de/media/image/49/69/28/336042_600x600.webp"
+													data-sizes="auto"
+													sizes="258px"
+													srcset="
+														https://www.profitapeten.de/media/image/49/69/28/336042_600x600.webp
+													"
+												/>
+												<img
+													loading="lazy"
+													alt="AS Creation |  Secret Garden |  336042 |  non-woven wallpaper |  floral look |  0.53 x 10.05m |  Brown"
+													title="AS Creation |  Secret Garden |  336042 |  non-woven wallpaper |  floral look |  0.53 x 10.05m |  Brown"
+													data-srcset="https://www.profitapeten.de/media/image/c3/8a/ea/336042_600x600.jpg"
+													data-sizes="auto"
+													class="lazyautosizes js--loaded gallery-image"
+													sizes="258px"
+													srcset="
+														./static/images/img6.jpg
+													"
+												/>
+											</picture>
+										</div>
+									</span>
+								</span>
+								<span class="kb--image-media-hover">
+									<img
+										srcset="
+											https://www.profitapeten.de/media/image/50/5b/ba/336042_1_400x400.jpg
+										"
+										alt="AS Creation |  Secret Garden |  336042 |  non-woven wallpaper |  floral look |  0.53 x 10.05m |  Brown"
+									/>
+								</span>
+							</a>
+							<a
+								href1="https://www.profitapeten.de/gemusterte-tapete/blumentapete/8928/a.s.-creation-secret-garden-336042-vliestapete-blumenoptik-0.53-x-10.05-m-braun"
+								class="product--title"
+								title="AS Creation |  Secret Garden |  336042 |  non-woven wallpaper |  floral look |  0.53 x 10.05m |  Brown"
+								><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										AS Creation | </font
+									><font style="vertical-align: inherit"
+										>Secret Garden | </font
+									><font style="vertical-align: inherit"
+										>336042 | </font
+									><font style="vertical-align: inherit"
+										>non-woven wallpaper | </font
+									><font style="vertical-align: inherit"
+										>floral look | </font
+									><font style="vertical-align: inherit"
+										>0.53 x 10.05m | </font
+									><font style="vertical-align: inherit"
+										>Brown
+									</font></font
+								></a
+							>
+							<div class="product--price-info">
+								<div class="product--price">
+									<span class="price--default is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												€26.40 * / roll
+											</font></font
+										></span
+									>
+								</div>
+								<div
+									class="price--unit"
+									title="Content: 5.33 m² (€4.95 * / 1 m²)"
+								>
+									<span
+										class="price--label label--purchase-unit is--bold is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Content:
+											</font></font
+										></span
+									>
+									<span class="is--nowrap sqm"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												5.33 m²
+											</font></font
+										></span
+									>
+									<span class="is--nowrap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												(€4.95 * / 1 m²)
+											</font></font
+										></span
+									>
+								</div>
+							</div>
+							<div class="product--actions">
+								<form
+									action1="https://www.profitapeten.de/compare/add_article/articleID/8928"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="Compare"
+										aria-label="Compare"
+										class="product--action action--compare"
+										data-product-compare-add="true"
+									>
+										<font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>Compare
+											</font></font
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+								<form
+									action1="https://www.profitapeten.de/note/add/ordernumber/TAP15940"
+									method="post"
+								>
+									<button
+										type1="submit"
+										title="On the notepad"
+										aria-label="On the notepad"
+										class="product--action action--note"
+										data-ajaxurl="https://www.profitapeten.de/note/ajaxAdd/ordernumber/TAP15940"
+										data-text="Gemerkt"
+									>
+										<span class="action--text"
+											><font
+												style="vertical-align: inherit"
+												><font
+													style="
+														vertical-align: inherit;
+													"
+													>Notice</font
+												></font
+											></span
+										>
+									</button>
+									<input
+										type="hidden"
+										name="__csrf_token"
+										value="APUPDnHoclSNFenxnV5MV6HWITXtWA"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- content -->
+
+		<footer class="footer-main">
+			<div class="container">
+				<div class="footer--columns block-group">
+					<div class="footer--column column--hotline is--first block">
+						<div class="column--headline">
+							<font style="vertical-align: inherit"
+								><font style="vertical-align: inherit"
+									>service hotline</font
+								></font
+							>
+						</div>
+						<div class="column--content">
+							<p class="column--desc">
+								<font style="vertical-align: inherit"
+									><font style="vertical-align: inherit"
+										>Professional support and advice at:
+									</font></font
+								><br /><br /><a
+									href1="tel:+4954689384748"
+									class="footer--phone-link"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>05468 - 93 84 748</font
+										></font
+									></a
+								><br /><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										Mon-Fri: 10 a.m. - 5 p.m.
+									</font></font
+								><br /><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit"
+										>or
+									</font></font
+								><a
+									href1="mailto:info@profistuck.de"
+									target="_self"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>info@profistuck.de</font
+										></font
+									></a
+								>
+							</p>
+							<div class="column--socials">
+								<div class="column--headline-sub">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>Follow us</font
+										></font
+									>
+								</div>
+								<nav class="column--navigation">
+									<ul class="navigation--list">
+										<li class="navigation--entry">
+											<a
+												class="navigation--link"
+												href1="https://www.facebook.com/Profistuck.de"
+												target="_blank"
+												title="Facebook"
+												rel="nofollow noopener"
+											>
+												<picture
+													class="fab fa-facebook-f"
+												>
+													<svg
+														aria-hidden="true"
+														focusable="false"
+														data-prefix="fab"
+														data-icon="facebook-f"
+														class="svg-inline--fa fa-facebook-f fa-w-10"
+														role="img"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 320 512"
+													>
+														<path
+															fill="currentColor"
+															d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+														></path>
+													</svg>
+												</picture>
+											</a>
+										</li>
+										<li class="navigation--entry">
+											<a
+												class="navigation--link"
+												href1="https://www.youtube.com/user/profistuck/videos"
+												target="_blank"
+												title="youtube"
+												rel="nofollow noopener"
+											>
+												<picture class="fab fa-youtube">
+													<svg
+														aria-hidden="true"
+														focusable="false"
+														data-prefix="fab"
+														data-icon="youtube"
+														class="svg-inline--fa fa-youtube fa-w-18"
+														role="img"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 576 512"
+													>
+														<path
+															fill="currentColor"
+															d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+														></path>
+													</svg>
+												</picture>
+											</a>
+										</li>
+										<li class="navigation--entry">
+											<a
+												class="navigation--link"
+												href1="https://www.instagram.com/profistuck.de/"
+												target="_blank"
+												title="Instagram"
+												rel="nofollow noopener"
+											>
+												<picture
+													class="fab fa-instagram"
+												>
+													<svg
+														aria-hidden="true"
+														focusable="false"
+														data-prefix="fab"
+														data-icon="instagram"
+														class="svg-inline--fa fa-instagram fa-w-14"
+														role="img"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 448 512"
+													>
+														<path
+															fill="currentColor"
+															d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+														></path>
+													</svg>
+												</picture>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="footer--column column--menu block">
+						<div class="column--headline">
+							<font style="vertical-align: inherit"
+								><font style="vertical-align: inherit"
+									>store service</font
+								></font
+							>
+						</div>
+						<nav class="column--navigation column--content">
+							<ul class="navigation--list" role="menu">
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://showroom.profitapeten.de"
+										title="room designer"
+										rel="nofollow noopener"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												room designer
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/kontakt-kundenservice"
+										title="Contact &amp; Customer Service"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Contact &amp; Customer Service
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/versandkostentabelle"
+										title="shipping"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												shipping
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/zahlungsarten"
+										title="Payment Methods"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Payment Methods
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/reklamation-ruecksendung"
+										title="Complaint &amp; return"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Complaint &amp; return
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/detail/index/sArticle/46424"
+										title="⛟ GLS return slip"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												⛟ GLS return slip
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/bestellablauf"
+										title="order process"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												order process
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/vliestapeten-tapezieren.html"
+										title="wallpapering instructions"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												wallpapering instructions
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/musterservice"
+										title="sample service"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												sample service
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/rollenberechnung"
+										title="role calculation"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												role calculation
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/faq-haeufige-fragen-profitapeten"
+										title="FAQ - Frequently Asked Questions"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												FAQ - Frequently Asked Questions
+											</font></font
+										></a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer--column column--menu block">
+						<div class="column--headline">
+							<font style="vertical-align: inherit"
+								><font style="vertical-align: inherit"
+									>information</font
+								></font
+							>
+						</div>
+						<nav class="column--navigation column--content">
+							<ul class="navigation--list" role="menu">
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/kundenmeinungen.html"
+										title="customer opinions"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												customer opinions
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/versandkostentabelle#sendungsverfolgung"
+										title="shipment tracking"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												shipment tracking
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/ueber-uns"
+										title="About Us"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												About Us
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/grossabnehmer-gewerbekundenanfrage"
+										title="B2B &amp; dealer area"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												B2B &amp; dealer area
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/karriere-bei-vld-trade"
+										title="Career"
+										target="_parent"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Career
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/agb.html#widerrufsrecht"
+										title="Right of Withdrawal / Form"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Right of Withdrawal / Form
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/datenschutzerklaerung.html"
+										title="data protection"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												data protection
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/agb.html"
+										title="Terms and Conditions (GTC)"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Terms and Conditions (GTC)
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="https://www.profitapeten.de/impressum"
+										title="imprint"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												imprint
+											</font></font
+										></a
+									>
+								</li>
+								<li class="navigation--entry" role="menuitem">
+									<a
+										class="navigation--link"
+										href1="/sitemap"
+										title="Sitemap"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+											>
+												Sitemap
+											</font></font
+										></a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div
+						class="footer--column column--newsletter is--last block"
+					>
+						<div class="column--headline">
+							<font style="vertical-align: inherit"
+								><font style="vertical-align: inherit"
+									>your benefits</font
+								></font
+							>
+						</div>
+						<nav class="column--navigation column--content">
+							<ul class="navigation--list" role="menu">
+								<font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										✔ Large variety of wallpapers
+									</font></font
+								>
+								<p></p>
+								<li class="navigation--entry" role="menuitem">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit">
+											✔ Fast delivery
+										</font></font
+									>
+								</li>
+								<p></p>
+								<li class="navigation--entry" role="menuitem">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit">
+											✔ Simple &amp; secure payment
+										</font></font
+									>
+								</li>
+								<p></p>
+								<li class="navigation--entry" role="menuitem">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit">
+											✔ Competent customer service
+										</font></font
+									>
+								</li>
+								<p></p>
+								<li class="navigation--entry" role="menuitem">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit">
+											✔ Sample order possible
+										</font></font
+									>
+								</li>
+								&nbsp; &nbsp; &nbsp;
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer--columns block-group">
+					<div class="block-newsletter column--newsletter">
+						<div class="newsletter-content--wrapper">
+							<div class="column--newsletter-headline">
+								<font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										Newsletter
+									</font></font
+								>
+							</div>
+							<p class="column--desc">
+								<font style="vertical-align: inherit"
+									><font style="vertical-align: inherit">
+										Registration for our newsletter:
+									</font></font
+								><br /><font style="vertical-align: inherit"
+									><font style="vertical-align: inherit"
+										>(unsubscribe possible at any time)
+									</font></font
+								>
+							</p>
+						</div>
+						<div class="column--newsletter" data-newsletter="true">
+							<form class="newsletter--form">
+								<input
+									type="hidden"
+									value="1"
+									name="subscribeToNewsletter"
+								/>
+								<div class="content">
+									<input
+										type="email"
+										aria-label="Your email address"
+										name="newsletter"
+										class="newsletter--field"
+										placeholder="Your email address"
+									/>
+									<input type="hidden" name="redirect" />
+									<button
+										aria-label="Subscribe to Newsletter"
+										class="newsletter--button btn"
+									>
+										Send
+									</button>
+								</div>
+								<p class="privacy-information">
+									<font style="vertical-align: inherit"
+										><font style="vertical-align: inherit">
+											I have </font
+										><font style="vertical-align: inherit"
+											>read the
+										</font></font
+									><a
+										title="Privacy Policy"
+										href1="/datenschutzerklaerung.html"
+										target="_blank"
+										><font style="vertical-align: inherit"
+											><font
+												style="vertical-align: inherit"
+												>privacy policy .</font
+											></font
+										></a
+									><font
+										style="vertical-align: inherit"
+									></font>
+								</p>
+								<input
+									type="hidden"
+									name="__csrf_token"
+									value="ILSHo2iTrnEKpaxJXyNfWs9z1hZlU4"
+								/>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer--bottom">
+					<div class="footer--vat-info">
+						<p class="vat-info--text">
+							<font style="vertical-align: inherit"
+								><font style="vertical-align: inherit">
+									* All prices incl. </font
+								><font style="vertical-align: inherit"
+									>VAT plus
+								</font></font
+							><strong
+								><a
+									class="color_white"
+									title="Shipping"
+									href1="/versandkostentabelle"
+									><font style="vertical-align: inherit"
+										><font style="vertical-align: inherit"
+											>shipping costs</font
+										></font
+									></a
+								></strong
+							>
+						</p>
+					</div>
+					<div class="container footer-minimal">
+						<div class="footer--service-menu"></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="./static/js/script.js"></script>
+	</body>
+</html>

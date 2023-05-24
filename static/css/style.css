@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.grayscale {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+#cropper-modal > .modal-dialog {
+	margin: 15px;
+	width: auto;
+	height: auto;
+}
+.modal-body::-webkit-scrollbar {
+	display: none;
+}
+
+.modal-body {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+#height-input {
+	width: 100%;
+}
+#width-input {
+	width: 100%;
+}
+#close-modal {
+		margin: 5px;
+	}
+@media only screen and (max-width: 600px) {
+	#mian-logo-css {
+		max-width: 80%;
+	}
+	#close-modal {
+		margin-top: 18px;
+	}
+}
